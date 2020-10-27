@@ -1,4 +1,4 @@
-FROM python:3-stretch
+FROM python:3.5-stretch
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update -qy && \
